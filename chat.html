@@ -12,12 +12,15 @@
             // Create a list of servers for each user - user owns and is responsible for server
             // Maybe just call them a chat if it's 1 on 1
             // Create a one time invite by having a link with 2 parts, 1 is the id, 2 is a secret that is verified and deleted once used
-            var peer = new Peer({key: '6ito2186jdqgp66r'});
+	        
+            window.addEventListener('load', load);
 
-            peer.on('open', function(id) {
-              console.log('My peer ID is: ' + id);
-            });
-
+			function load (){
+				var peer = new Peer({key: '6ito2186jdqgp66r'});
+				peer.on('open', function(id) {
+					console.log('My peer ID is: ' + id);
+				});
+			}
             var conn = peer.connect('dest-peer-id');
 
         </script>
@@ -26,5 +29,6 @@
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+		<button>Hello</button>
     </body>
 </html>
