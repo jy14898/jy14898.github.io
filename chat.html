@@ -8,14 +8,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
         <script>
-        var peer = new Peer({key: '6ito2186jdqgp66r'});
-        
-        peer.on('open', function(id) {
-          console.log('My peer ID is: ' + id);
-        });
-        
-        var conn = peer.connect('dest-peer-id');
-        
+            // Ideas:
+            // Create a list of servers for each user - user owns and is responsible for server
+            // Maybe just call them a chat if it's 1 on 1
+            // Create a one time invite by having a link with 2 parts, 1 is the id, 2 is a secret that is verified and deleted once used
+            var peer = new Peer({key: '6ito2186jdqgp66r'});
+
+            peer.on('open', function(id) {
+              console.log('My peer ID is: ' + id);
+            });
+
+            var conn = peer.connect('dest-peer-id');
+
         </script>
     </head>
     <body>
