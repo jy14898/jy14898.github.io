@@ -1,26 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components/macro';
+
+import { GlobalStyle } from './theme/globalStyle';
+
+const AppWrapper = styled.div`
+    margin: 100px auto;
+    width: 400px;
+`;
+
+const Headline = styled.div`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 1em 0;
+  padding: 0.25em 1em;
+  text-align: center;
+`;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <>
+            <GlobalStyle />
+            <AppWrapper>
+                <Headline>welcome to my website</Headline>
+                I might put stuff here later
+            </AppWrapper>
+        </>
     );
   }
 }
