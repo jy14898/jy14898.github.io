@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 import { GlobalStyle } from './theme/globalStyle';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faStackExchange, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faStackExchange, faYoutube, faCodepen } from '@fortawesome/free-brands-svg-icons'
 
 const AppWrapper = styled.div`
     margin-top: 20px;
@@ -27,7 +27,7 @@ const Headline = styled.div`
 `;
 
 const Social = styled.div`
-    margin-top: 10px;
+    margin-top: 20px;
     font-size:2em;
     display: flex;
     justify-content: space-evenly;
@@ -46,6 +46,8 @@ class App extends Component {
                         <a href="https://github.com/jy14898"><FontAwesomeIcon icon={faGithub}/></a>
                         <a href="https://stackexchange.com/users/7246868/joseph-young"><FontAwesomeIcon icon={faStackExchange}/></a>
                         <a href="https://www.youtube.com/channel/UCgPjQ2V3APd4wv7myjEZoBA"><FontAwesomeIcon icon={faYoutube}/></a>
+                        <a href=""><FontAwesomeIcon icon={faCodepen}/></a>
+                        <a href="https://orcid.org/0000-0003-1330-0515"><i class="ai ai-orcid ai-1x"></i></a>
                     </Social>
                 </Idk>
             </AppWrapper>
