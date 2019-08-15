@@ -48,7 +48,7 @@ class App extends Component {
                         <a href="https://stackexchange.com/users/7246868/joseph-young"><FontAwesomeIcon icon={faStackExchange}/></a>
                         <a href="https://www.youtube.com/channel/UCgPjQ2V3APd4wv7myjEZoBA"><FontAwesomeIcon icon={faYoutube}/></a>
                         <a href="https://codepen.io/jy14898"><FontAwesomeIcon icon={faCodepen}/></a>
-                        <a href="https://orcid.org/0000-0003-1330-0515"><i class="ai ai-orcid ai-1x"></i></a>
+                        <a href="https://orcid.org/0000-0003-1330-0515"><i className="ai ai-orcid ai-1x"></i></a>
                     </Social>
                 </Idk>
             </AppWrapper>
