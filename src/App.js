@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 import { GlobalStyle } from './theme/globalStyle';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faStackExchange, faYoutube, faCodepen } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faStackExchange, faYoutube, faCodepen } from '@fortawesome/free-brands-svg-icons'
 
 const AppWrapper = styled.div`
     margin-top: 20px;
@@ -43,6 +43,7 @@ class App extends Component {
                     <Headline>welcome to my website</Headline>
                     I might put stuff here later
                     <Social>
+                        <a href="https://www.linkedin.com/in/jy14898"><FontAwesomeIcon icon={faLinkedin}/></a>
                         <a href="https://github.com/jy14898"><FontAwesomeIcon icon={faGithub}/></a>
                         <a href="https://stackexchange.com/users/7246868/joseph-young"><FontAwesomeIcon icon={faStackExchange}/></a>
                         <a href="https://www.youtube.com/channel/UCgPjQ2V3APd4wv7myjEZoBA"><FontAwesomeIcon icon={faYoutube}/></a>
