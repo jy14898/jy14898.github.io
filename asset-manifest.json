@@ -1,27 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7c6cf00.chunk.css",
-    "main.js": "/static/js/main.7d027a14.chunk.js",
-    "main.js.map": "/static/js/main.7d027a14.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.90fddc72.js",
-    "runtime-main.js.map": "/static/js/runtime-main.90fddc72.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.147f5f14.chunk.js": "/static/js/2.147f5f14.chunk.js",
-    "static/js/2.147f5f14.chunk.js.map": "/static/js/2.147f5f14.chunk.js.map",
+    "main.js": "/static/js/main.5bc5470d.chunk.js",
+    "main.js.map": "/static/js/main.5bc5470d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.c93da913.js",
+    "runtime~main.js.map": "/static/js/runtime~main.c93da913.js.map",
+    "static/css/2.92c2e21d.chunk.css": "/static/css/2.92c2e21d.chunk.css",
+    "static/js/2.cf313339.chunk.js": "/static/js/2.cf313339.chunk.js",
+    "static/js/2.cf313339.chunk.js.map": "/static/js/2.cf313339.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.674ad4c6f4e35e691a85214823f6dccc.js": "/precache-manifest.674ad4c6f4e35e691a85214823f6dccc.js",
+    "precache-manifest.be3080d3f7b2401ed9584efcc2e89768.js": "/precache-manifest.be3080d3f7b2401ed9584efcc2e89768.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.f7c6cf00.chunk.css.map": "/static/css/main.f7c6cf00.chunk.css.map",
-    "static/js/2.147f5f14.chunk.js.LICENSE": "/static/js/2.147f5f14.chunk.js.LICENSE",
-    "static/media/keys.png": "/static/media/keys.09e1b180.png",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.90fddc72.js",
-    "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.147f5f14.chunk.js",
-    "static/css/main.f7c6cf00.chunk.css",
-    "static/js/main.7d027a14.chunk.js"
-  ]
+    "static/css/2.92c2e21d.chunk.css.map": "/static/css/2.92c2e21d.chunk.css.map",
+    "static/media/academicons.css": "/static/media/academicons.ea3755c3.eot"
+  }
 }
